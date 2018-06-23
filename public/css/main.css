@@ -1,0 +1,32 @@
+html, body {
+  margin: 0;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.autocomplete-box {
+  position: relative;
+}
+.autocomplete-box .result-list {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+}
+.autocomplete-box .result-list .item {
+  list-style-type: none;
+  padding: 10px;
+  border-bottom: 1px solid grey;
+  background: white;
+  width: 100%;
+  cursor: pointer;
+}

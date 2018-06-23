@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Blindify</title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="game">
+        <div id="score" class="score">
+
+        </div>
+        <div id="actualAnswer"></div>
+        <div class="autocomplete-box">
+          <input id="answer" name="answer" type="text">
+          <ul data-complete="answer" class="result-list">
+          </ul>
+        </div>
+        <progress id="progress" value="0" max="30"></progress>
+        <button id="next">
+          Next
+        </button>
+      </div>
+    </div>
+    <script src="js/index.js" charset="utf-8"></script>
+  </body>
+</html>
